@@ -1,9 +1,18 @@
 [ignore]
+<PROJECT_ROOT>/node_modules/*.json
+.vscode/.*
+.*/**/*.draft.js
+<PROJECT_ROOT>/lib
 
 [include]
+<PROJECT_ROOT>/src
 
 [libs]
+./flow-typed/npm
 
 [lints]
 
 [options]
+emoji=true
+module.use_strict=true
+esproposal.export_star_as=enable

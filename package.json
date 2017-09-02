@@ -40,5 +40,8 @@
     "eslint-config-atomix-base": "^4.1.0",
     "eslint-plugin-flowtype": "^2.35.1",
     "flow-bin": "^0.54.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.4.3"
   }
 }
