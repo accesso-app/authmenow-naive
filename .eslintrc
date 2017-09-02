@@ -1,0 +1,5 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["atomix-base", "plugin:flowtype/recommended"],
+  "plugins": ["flowtype"]
+}

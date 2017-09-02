@@ -1,0 +1,44 @@
+{
+  "name": "authmenow",
+  "version": "0.0.0",
+  "description": "Library for AuthMeNow",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomixinteractions/authmenow.git"
+  },
+  "keywords": [
+    "auth",
+    "me",
+    "now",
+    "jwt",
+    "service",
+    "authorization",
+    "web",
+    "http",
+    "security",
+    "sign"
+  ],
+  "author": "Sergey Sova <i.am@lestad.net> (https://lestad.top)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/atomixinteractions/authmenow/issues"
+  },
+  "homepage": "https://github.com/atomixinteractions/authmenow#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.6.0",
+    "eslint-config-atomix-base": "^4.1.0",
+    "eslint-plugin-flowtype": "^2.35.1",
+    "flow-bin": "^0.54.0"
+  }
+}
